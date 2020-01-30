@@ -17,4 +17,3 @@ POST       /myExamplePage                        controllers.MyExamplePageContro
 GET        /changemyExamplePage                  controllers.MyExamplePageController.onPageLoad(mode: Mode = CheckMode)
 POST       /changemyExamplePage                  controllers.MyExamplePageController.onSubmit(mode: Mode = CheckMode)
 
-GET        /testPage                       controllers.TestPageController.onPageLoad()
